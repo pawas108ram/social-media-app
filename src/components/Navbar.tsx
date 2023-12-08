@@ -12,7 +12,7 @@ export const  Navbar = () => {
   }
 
   return (
-   <div className="flex flex-row gap-8 bg-teal-400 items-center justify-end font-sans  ">
+   <div className="flex flex-row gap-8 bg-teal-400 items-center justify-end font-sans sticky top-0  ">
      <nav >
       <ul className=" font-bold text-xl flex gap-8 p-4 justify-center items-center ">
          {!user && <Link className="ring-1 ring-white ring-offset-2 py-2 px-6 rounded-md hover:scale-105 hover:duration-300 text-opacity-20"to="/Login"> Login</Link>}
